@@ -1,0 +1,12 @@
+{
+    "name": "Ishita",
+    "score": 11.75,
+    "isAdmin": false,
+    "license": null,
+    "shopItems": ["food", "clothes", "sunflower oil"],
+    "myObj": {
+        "name": "nested",
+        "marks": 45,
+        "shopItems2": ["food", "clothes", {"a": true}]
+    }
+}
