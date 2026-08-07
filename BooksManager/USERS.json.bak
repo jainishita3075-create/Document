@@ -1,0 +1,49 @@
+[
+    {
+        "username": "ahsjdvb23",
+        "password": "sadbjdc23 23",
+        "history": [
+            {
+                "invoice_id": "INV-20260807112314",
+                "date": "2026-08-07 11:23:14",
+                "action": "BUY",
+                "book": "Pride and Prejudice",
+                "price": 5.88
+            },
+            {
+                "invoice_id": "INV-20260807112353",
+                "date": "2026-08-07 11:23:53",
+                "action": "ISSUE",
+                "book": "Pride and Prejudice",
+                "price": 0.0,
+                "due_date": "2026-08-21"
+            }
+        ]
+    },
+    {
+        "username": "ishita12",
+        "password": "ishita@12",
+        "history": [
+            {
+                "invoice_id": "INV-20260807113010",
+                "date": "2026-08-07 11:30:10",
+                "action": "BUY",
+                "book": "To Kill a Mockingbird",
+                "price": 98.51
+            },
+            {
+                "invoice_id": "INV-20260807113031",
+                "date": "2026-08-07 11:30:31",
+                "action": "ISSUE",
+                "book": "To Kill a Mockingbird",
+                "price": 0.0,
+                "due_date": "2026-08-21"
+            }
+        ]
+    },
+    {
+        "username": "akshat12",
+        "password": "akshat 12",
+        "history": []
+    }
+]
