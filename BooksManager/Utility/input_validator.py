@@ -138,17 +138,21 @@ def prompt_string_only(prompt_msg: str) -> str:
 
 def prompt_non_empty_string(prompt_msg: str) -> str:
     """
-    Prompts user until a non-empty string is provided.
+    Prompts user until a non-empty string is provided. Purely numeric
+    input is allowed, since real values (book titles like "1984",
+    search queries, etc.) can legitimately consist only of digits.
     
     Example:
         >>> text = prompt_non_empty_string("Enter value: ")
         # Returns 'Valid String'
+        >>> title = prompt_non_empty_string("Enter book title: ")
+        # Also accepts "1984"
     """
     while True:
         val = input(prompt_msg).strip()
-        if val and not val.isdigit():
+        if val:
             return val
-        print("Error: Field cannot be empty or purely numeric. Please re-enter.")
+        print("Error: Field cannot be empty. Please re-enter.")
 
 def prompt_isbn(prompt_msg: str) -> str:
     """

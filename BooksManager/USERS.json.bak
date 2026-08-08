@@ -34,16 +34,67 @@
             {
                 "invoice_id": "INV-20260807113031",
                 "date": "2026-08-07 11:30:31",
-                "action": "ISSUE",
+                "action": "RETURNED",
                 "book": "To Kill a Mockingbird",
                 "price": 0.0,
-                "due_date": "2026-08-21"
+                "due_date": "2026-08-21",
+                "return_date": "2026-08-08 14:18:41",
+                "fine_paid": 0.0
+            },
+            {
+                "invoice_id": "INV-20260808111831",
+                "date": "2026-08-08 11:18:31",
+                "action": "BUY",
+                "book": "Harry Potter and the Sorcerer's Stone",
+                "isbn": "492345244-7",
+                "price": 96.21
+            },
+            {
+                "invoice_id": "INV-20260808141909",
+                "date": "2026-08-08 14:19:09",
+                "action": "ISSUE",
+                "book": "1984",
+                "isbn": "150288509-3",
+                "price": 0.0,
+                "due_date": "2026-08-22"
             }
         ]
     },
     {
         "username": "akshat12",
         "password": "akshat 12",
-        "history": []
+        "history": [
+            {
+                "invoice_id": "INV-20260807113732",
+                "date": "2026-08-07 11:37:32",
+                "action": "BUY",
+                "book": "1984",
+                "isbn": "210775253-2",
+                "price": 16.21
+            }
+        ]
+    },
+    {
+        "username": "Aditya01",
+        "password": "DatanshTopeer@app1234Developer",
+        "history": [
+            {
+                "invoice_id": "INV-20260807141252",
+                "date": "2026-08-07 14:12:52",
+                "action": "BUY",
+                "book": "1984",
+                "isbn": "024217013-7",
+                "price": 25.79
+            },
+            {
+                "invoice_id": "INV-20260807141612",
+                "date": "2026-08-07 14:16:12",
+                "action": "ISSUE",
+                "book": "To Kill a Mockingbird",
+                "isbn": "750914169-9",
+                "price": 0.0,
+                "due_date": "2026-08-21"
+            }
+        ]
     }
 ]

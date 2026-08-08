@@ -26,7 +26,7 @@
         "publication_date": "10/19/1996",
         "isbn": "870329963-5",
         "price": 30.43,
-        "quantity": 582,
+        "quantity": 581,
         "language": "Church Slavic"
     },
     {
@@ -36,7 +36,7 @@
         "publication_date": "1/12/2021",
         "isbn": "492345244-7",
         "price": 96.21,
-        "quantity": 795,
+        "quantity": 794,
         "language": "Tigrinya"
     },
     {
@@ -86,7 +86,7 @@
         "publication_date": "4/8/1979",
         "isbn": "150288509-3",
         "price": 19.03,
-        "quantity": 751,
+        "quantity": 750,
         "language": "Nepali"
     },
     {
@@ -2026,7 +2026,7 @@
         "publication_date": "7/28/1955",
         "isbn": "024217013-7",
         "price": 25.79,
-        "quantity": 502,
+        "quantity": 501,
         "language": "Ndebele, South"
     },
     {
@@ -2196,7 +2196,7 @@
         "publication_date": "7/1/1971",
         "isbn": "750914169-9",
         "price": 96.5,
-        "quantity": 335,
+        "quantity": 334,
         "language": "Ndebele, North"
     },
     {
@@ -9998,5 +9998,15 @@
         "price": 40.0,
         "quantity": 100,
         "language": "English"
+    },
+    {
+        "book_title": "money heist",
+        "author": "abc",
+        "genre": "mystery",
+        "publication_date": "2012-02-23",
+        "isbn": "12345678-X",
+        "price": 20.0,
+        "quantity": 122,
+        "language": "english"
     }
 ]
